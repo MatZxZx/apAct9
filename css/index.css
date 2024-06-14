@@ -1,0 +1,74 @@
+body {
+    font-family: "Source Code Pro", monospace;
+    background: rgb(84, 91, 182);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.titlePage{
+
+    font-size: xx-large;
+    color: white;
+
+}
+
+.card {
+    margin-bottom: 30px;
+    background: rgb(106, 115, 209);
+    border-radius: 10px;
+}
+
+.card img{
+    height: 350px;
+    object-fit: cover;
+}
+
+.button{
+
+    background: rgb(131, 137, 216);
+    border-color: rgb(43, 48, 102);
+    border-radius: 10px;
+
+}
+
+.button:hover{
+
+    background: rgb(70, 74, 124);
+    border-color: rgb(255, 255, 255);
+
+}
+
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #3b394e; 
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #8aa5ff !important; 
+}
+
+.navbar .nav-link:hover {
+    color: #c8d7ff !important; 
+}
+
+
+footer {
+    background-color: #3b394e;
+    color: #8aa5ff !important;
+}
+
+footer p {
+    margin: 0;
+}
